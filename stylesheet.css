@@ -1,0 +1,114 @@
+﻿body {
+    background-color: antiquewhite;
+    padding: 6px;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #96D4D5;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
+
+about {
+    border-style: initial;
+    border-color: darkslateblue;
+}
+
+lt ul li:hover {
+    background: #f6f6f6;
+}
+
+
+menu ul {
+    display: none;
+}
+
+menu li:hover {
+    background-color: black;
+}
+
+menu li a:hover {
+    color: aqua;
+}
+
+menu li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+lt li:hover ul {
+    display: list-item;
+}
+
+ul {
+    background-color: #96D4D5;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+li a {
+    padding: 15px;
+    color: white;
+    font: bold;
+    font-size: 15px;
+    display: list-item;
+    text-align: center;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+}
+
+    li a:hover {
+        background-color: aquamarine;
+    }
+
+.dropbtn {
+    background-color: #96D4d4;
+    color: white;
+    padding: 16px;
+    font-size: 15px;
+    font: bold;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: aquamarine;
+ }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: aquamarine;
+}

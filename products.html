@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+            crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $("#idpage").load("index.html");
+        });
+    </script>
+    <style>
+        img {
+            margin-right: 10px;
+            height:100px;
+            width:100px;
+        }
+
+        table, th, td {
+            background-color: rgba(150, 212, 212, 0.4);
+            border-radius: 8px;
+            border-style: groove;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <div id="idpage"></div>
+    <br /><br /><br /><br />
+    <center>
+        <table width="80%">
+            <th colspan="4"><b style="font-size:20px;">Product Details</b></th>
+            <tr>
+                <th>Photo</th>
+                <th>Name</th>
+                <th>Price</th>
+
+            </tr>
+
+            <tr>
+                <td><a href="https://www.amazon.in/HTML-CSS-Complete-Reference-Fifth/dp/0070701946"><img src="Images/book1.jpg" title="HTML Book"></a></td>
+                <td>The Complete Reference Of HTML & CSS</td>
+                <td>889.00/-</td>
+
+            </tr>
+
+            <tr>
+                <td><a href="https://www.amazon.in/CSS-Visual-Dictionary-Greg-Sidelnikov-ebook/dp/B07DQMNHF5/ref=lp_14447046031_1_8"><img src="Images/book2.jpg" title="CSS Book"></a></td>
+                <td>CSS Visual Dictionary</td>
+                <td>555.75/-</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.amazon.in/JavaScript-Complete-Reference-Thomas-Powell/dp/0072191279"><img src="Images/book3.jpg" title="JavaScript Book"></a></td>
+                <td>The Complete Reference Javascript</td>
+                <td>384.00/-</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.amazon.in/Bootstrap-Jake-Spurlock/dp/9351101606/ref=asc_df_9351101606/?tag=googleshopdes-21&linkCode=df0&hvadid=397010576383&hvpos=&hvnetw=g&hvrand=9257671282661037486&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061748&hvtargid=pla-836041177809&psc=1&ext_vrnc=hi"><img src="Images/book4.jpg" title="Bootstrap Book"></a></td>
+                <td>The Complete Refrence Of HTML & CSS</td>
+                <td>500.00/-</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.amazon.in/ASP-NET-Complete-Reference-Matthew-Macdonald/dp/007049536X"><img src="Images/book5.jpg" title="Asp.net Book"></a></td>
+                <td>The Complete Refrence Of Asp.net</td>
+                <td>699.00/-</td>
+            </tr>
+        </table><br /><br /><br />
+
+        <table width="80%">
+            <th colspan="4"><b style="font-size:20px;">Laptop Accessories</b></th>
+            <tr>
+                <th>Photo</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Buy</th>
+            </tr>
+
+            <tr>
+                <td><a href=https://www.amazon.in/gp/product/B08L879JSN/ref=s9_acss_bw_cg_Header_2a1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-4&pf_rd_r=4TY85BGHR5FYT23XV6HV&pf_rd_t=101&pf_rd_p=ef51cf6c-feb3-41d1-b709-d8621c2b29cf&pf_rd_i=976392031&th=1"><img src="Images/cmp1.jpg" title="HTML Book"></a></td>
+                <td>Monitor</td>
+                <td>6299.00/-</td>
+                <td><input type="button" value="Buy now"/></td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>

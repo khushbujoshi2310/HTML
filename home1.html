@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+      <style>
+            .dropbtn {
+                background-color:#96D4d4 ;
+                color: white;
+                padding: 16px;
+                font-size: 15px;
+                font:bold;
+                border: none;
+            }
+
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: white;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+             .dropdown-content a {
+                 color: black;
+                 padding: 12px 16px;
+                 text-decoration: none;
+                 display: block;
+             }
+
+             .dropdown-content a:hover {
+                  background-color: aquamarine;
+             }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            .dropdown:hover .dropbtn {
+                background-color: aquamarine;
+            }
+        </style>
+        <nav class="lt">
+            <ul>
+                <li><img src="smiley.gif" alt="Smiley face" style="float:right;width:50px;height:50px;padding:5px;"></img></li>
+                <li class="menu"><a href="home.html">Home</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Course</button>
+                    <div class="dropdown-content">
+                <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+                <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+                <li><a href="https://www.w3schools.com/js/default.asp">Javascript</a></li>
+                <li><a href="https://www.w3schools.com/bootstrap5/index.php">Bootstrap</a></li>
+                </div>
+                </div>
+                <li><a href="gallary.html">Gallary</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+            </ul>
+        </nav>
+    </body>
+</html>
